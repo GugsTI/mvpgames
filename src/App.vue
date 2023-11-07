@@ -1,47 +1,47 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+
 </script>
 
-<template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
 
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
+  <template>
+    
+    <div class="container-fluid p-5 bg-primary text-white text-left">  
+        <input class="pesquisa" type="text" placeholder="Search">
+        <a class="linkcor" href=""><h1 class="titulo">MVP Games</h1></a>
+</div>
 
-  <main>
-    <TheWelcome />
-  </main>
-</template>
+
+    
+  </template>
+ 
+
+
+   
 
 <style scoped>
-header {
-  line-height: 1.5;
+.pesquisa{
+  margin-right: 50%;
+  margin-left: 70%;
+  margin-top: 30px;
+  border-radius: 10px;
+  width: 500px;
+height: 50px;
+  
 }
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
+.linkcor{
+  color: red;
+  text-decoration: none;
 }
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
+.titulo{
+ 
+  font-family: Marko One;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background: linear-gradient(180deg, #0A05FF 0%, #DB00FF 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 </style>
