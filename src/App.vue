@@ -5,6 +5,9 @@
 
   <template>
     
+    
+
+    
     <nav class="navbar ">
   <div class="container-fluid">
     <a class="linkcor" href=""><h1 class="titulo">MVP Games</h1></a>
@@ -21,6 +24,7 @@
     </form>
   </div>
 </nav>
+
     
   </template>
  
@@ -32,9 +36,8 @@
 
 
 
-
 .champions{
-  margin-left: 60px;
+  margin-left: 100px;
   color: #000;
 font-family: Marcellus SC;
 font-size: 10px;
