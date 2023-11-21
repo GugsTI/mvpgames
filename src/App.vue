@@ -20,10 +20,24 @@
 
     <div>
     <form class="d-flex">
-      <input class="pesquisa" type="search" placeholder="SEARCH CHAMPIONS OR SUMMONER" aria-label="Search">
+      <input class="pesquisa" type="search" placeholder="     SEARCH CHAMPIONS OR SUMMONER" aria-label="Search">
     </form>
   </div>
 </nav>
+
+<div class="retangle">
+  
+</div>
+
+<div class="retangle2">
+
+</div>
+
+<div class="retangle3">
+
+</div>
+
+
 
     
   </template>
@@ -33,6 +47,37 @@
    
 
 <style scoped>
+.retangle3{
+  width: 500px;
+height: 780px;
+border-radius: 110px;
+background: rgba(187, 210, 255, 0.12);
+position: absolute;
+margin-left: 1400px;
+margin-top: 20px;
+filter:contrast(5);
+}
+.retangle2{
+  width: 500px;
+height: 780px;
+border-radius: 110px;
+background: rgba(187, 210, 255, 0.12);
+position: absolute;
+margin-left: 738px;
+margin-top: 20px;
+filter:contrast(5);
+}
+
+.retangle{
+  width: 500px;
+height: 780px;
+border-radius: 110px;
+background: rgba(187, 210, 255, 0.12);
+position: absolute;
+margin-left: 50px;
+margin-top: 20px;
+filter:contrast(5);
+}
 
 
 
@@ -40,7 +85,7 @@
   margin-left: 100px;
   color: #000;
 font-family: Marcellus SC;
-font-size: 10px;
+font-size: 14px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
@@ -49,10 +94,10 @@ text-decoration: none;
 }
 
 .runes{
-  margin-left: 60px;
+  margin-left: 10px;
   color: #000;
 font-family: Marcellus SC;
-font-size: 10px;
+font-size: 14px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
@@ -61,10 +106,10 @@ text-decoration: none;
 }
 
 .rank{
-  margin-left: 60px;
+  margin-left: 20px;
   color: #000;
 font-family: Marcellus SC;
-font-size: 10px;
+font-size: 14px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
@@ -79,11 +124,12 @@ text-decoration: none;
 
 .pesquisa{
   margin-right: 50%;
-  margin-left: 20%;
+  margin-left: 2%;
   margin-bottom: 50px;
   border-radius: 10px;
   width: 1000px;
 height: 35px;
+align-items: center;
   
 }
 .linkcor{
